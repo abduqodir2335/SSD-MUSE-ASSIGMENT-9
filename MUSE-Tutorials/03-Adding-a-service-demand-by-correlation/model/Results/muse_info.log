@@ -1,0 +1,412 @@
+2026-11-22 21:56:13,905 - muse.readers.csv - INFO - Reading projections from C:\Users\abduq\Desktop\SSD\MUSE-Tutorials\03-Adding-a-service-demand-by-correlation\model\Projections.csv.
+2026-11-22 21:56:15,179 - muse.readers.csv - INFO - Reading macro drivers from C:\Users\abduq\Desktop\SSD\MUSE-Tutorials\03-Adding-a-service-demand-by-correlation\model\residential_presets\Macrodrivers.csv.
+2026-11-22 21:56:15,226 - muse.readers.csv - INFO - Reading regression parameters from C:\Users\abduq\Desktop\SSD\MUSE-Tutorials\03-Adding-a-service-demand-by-correlation\model\residential_presets\regressionparameters.csv.
+2026-11-22 21:56:15,305 - muse.regressions - INFO - Creating regression functor logistic-sigmoid from dataset
+2026-11-22 21:56:15,364 - muse.readers.csv - INFO - Reading timeslice shares from C:\Users\abduq\Desktop\SSD\MUSE-Tutorials\03-Adding-a-service-demand-by-correlation\model\residential_presets\TimesliceSharepreset.csv.
+2026-11-22 21:56:15,440 - muse.mca - INFO - Created sector residential_presets
+2026-11-22 21:56:15,443 - muse.readers.csv - INFO - Reading technodictionary from C:\Users\abduq\Desktop\SSD\MUSE-Tutorials\03-Adding-a-service-demand-by-correlation\model\residential\Technodata.csv.
+2026-11-22 21:56:15,554 - muse.readers.csv - INFO - Reading IO technodata from C:\Users\abduq\Desktop\SSD\MUSE-Tutorials\03-Adding-a-service-demand-by-correlation\model\residential\CommOut.csv.
+2026-11-22 21:56:15,615 - muse.readers.csv - INFO - Reading IO technodata from C:\Users\abduq\Desktop\SSD\MUSE-Tutorials\03-Adding-a-service-demand-by-correlation\model\residential\CommIn.csv.
+2026-11-22 21:56:15,765 - muse.readers.csv - INFO - Reading initial capacity from C:\Users\abduq\Desktop\SSD\MUSE-Tutorials\03-Adding-a-service-demand-by-correlation\model\residential\ExistingCapacity.csv.
+2026-11-22 21:56:15,800 - muse.readers.csv - INFO - Reading agent parameters from C:\Users\abduq\Desktop\SSD\MUSE-Tutorials\03-Adding-a-service-demand-by-correlation\model\Agents.csv.
+2026-11-22 21:56:15,835 - muse.agents.factories - INFO - Found 1 agents across 1 regions, with:
+    - 1 A1 agent
+
+2026-11-22 21:56:15,860 - muse.mca - INFO - Created sector residential
+2026-11-22 21:56:15,861 - muse.readers.csv - INFO - Reading technodictionary from C:\Users\abduq\Desktop\SSD\MUSE-Tutorials\03-Adding-a-service-demand-by-correlation\model\power\Technodata.csv.
+2026-11-22 21:56:15,976 - muse.readers.csv - INFO - Reading IO technodata from C:\Users\abduq\Desktop\SSD\MUSE-Tutorials\03-Adding-a-service-demand-by-correlation\model\power\CommOut.csv.
+2026-11-22 21:56:16,040 - muse.readers.csv - INFO - Reading IO technodata from C:\Users\abduq\Desktop\SSD\MUSE-Tutorials\03-Adding-a-service-demand-by-correlation\model\power\CommIn.csv.
+2026-11-22 21:56:16,193 - muse.readers.csv - INFO - Reading initial capacity from C:\Users\abduq\Desktop\SSD\MUSE-Tutorials\03-Adding-a-service-demand-by-correlation\model\power\ExistingCapacity.csv.
+2026-11-22 21:56:16,225 - muse.readers.csv - INFO - Reading agent parameters from C:\Users\abduq\Desktop\SSD\MUSE-Tutorials\03-Adding-a-service-demand-by-correlation\model\Agents.csv.
+2026-11-22 21:56:16,241 - muse.agents.factories - INFO - Found 1 agents across 1 regions, with:
+    - 1 A1 agent
+
+2026-11-22 21:56:16,265 - muse.mca - INFO - Created sector power
+2026-11-22 21:56:16,265 - muse.readers.csv - INFO - Reading technodictionary from C:\Users\abduq\Desktop\SSD\MUSE-Tutorials\03-Adding-a-service-demand-by-correlation\model\gas\Technodata.csv.
+2026-11-22 21:56:16,360 - muse.readers.csv - INFO - Reading IO technodata from C:\Users\abduq\Desktop\SSD\MUSE-Tutorials\03-Adding-a-service-demand-by-correlation\model\gas\CommOut.csv.
+2026-11-22 21:56:16,404 - muse.readers.csv - INFO - Reading IO technodata from C:\Users\abduq\Desktop\SSD\MUSE-Tutorials\03-Adding-a-service-demand-by-correlation\model\gas\CommIn.csv.
+2026-11-22 21:56:16,510 - muse.readers.csv - INFO - Reading initial capacity from C:\Users\abduq\Desktop\SSD\MUSE-Tutorials\03-Adding-a-service-demand-by-correlation\model\gas\ExistingCapacity.csv.
+2026-11-22 21:56:16,539 - muse.readers.csv - INFO - Reading agent parameters from C:\Users\abduq\Desktop\SSD\MUSE-Tutorials\03-Adding-a-service-demand-by-correlation\model\Agents.csv.
+2026-11-22 21:56:16,560 - muse.agents.factories - INFO - Found 1 agents across 1 regions, with:
+    - 1 A1 agent
+
+2026-11-22 21:56:16,582 - muse.mca - INFO - Created sector gas
+2026-11-22 21:56:16,586 - muse.mca - INFO - MCA Initialisation
+2026-11-22 21:56:16,586 - muse.mca - INFO - Running simulation years 2020 to 2025
+2026-11-22 21:56:16,718 - muse.sectors.sector - INFO - Running residential for years 2020 to 2025
+2026-11-22 21:56:16,764 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:56:16,775 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:56:17,454 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:56:17,470 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:56:17,470 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:56:17,496 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:56:17,867 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:56:18,169 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:56:18,612 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:56:18,668 - muse.production - INFO - Computing production: share
+2026-11-22 21:56:19,475 - muse.sectors.sector - INFO - Running power for years 2020 to 2025
+2026-11-22 21:56:19,511 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:56:19,520 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:56:20,093 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:56:20,104 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:56:20,104 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:56:20,122 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:56:20,509 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:56:20,823 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:56:21,222 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:56:21,271 - muse.production - INFO - Computing production: share
+2026-11-22 21:56:22,054 - muse.sectors.sector - INFO - Running gas for years 2020 to 2025
+2026-11-22 21:56:22,102 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:56:22,117 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:56:22,697 - muse.production - INFO - Computing production: share
+2026-11-22 21:56:23,665 - muse.sectors.sector - INFO - Running residential for years 2020 to 2025
+2026-11-22 21:56:23,701 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:56:23,710 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:56:24,236 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:56:24,252 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:56:24,252 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:56:24,278 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:56:24,612 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:56:24,880 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:56:25,247 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:56:25,289 - muse.production - INFO - Computing production: share
+2026-11-22 21:56:26,074 - muse.sectors.sector - INFO - Running power for years 2020 to 2025
+2026-11-22 21:56:26,117 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:56:26,124 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:56:26,650 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:56:26,665 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:56:26,665 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:56:26,686 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:56:26,995 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:56:27,277 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:56:27,644 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:56:27,696 - muse.production - INFO - Computing production: share
+2026-11-22 21:56:28,491 - muse.sectors.sector - INFO - Running gas for years 2020 to 2025
+2026-11-22 21:56:28,527 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:56:28,536 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:56:29,153 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:56:29,165 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:56:29,165 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:56:29,193 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:56:29,489 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:56:29,793 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:56:30,130 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:56:30,173 - muse.production - INFO - Computing production: share
+2026-11-22 21:56:31,059 - muse.sectors.sector - INFO - Running residential for years 2020 to 2025
+2026-11-22 21:56:31,091 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:56:31,100 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:56:31,637 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:56:31,653 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:56:31,653 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:56:31,675 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:56:31,981 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:56:32,268 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:56:32,631 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:56:32,672 - muse.production - INFO - Computing production: share
+2026-11-22 21:56:33,436 - muse.sectors.sector - INFO - Running power for years 2020 to 2025
+2026-11-22 21:56:33,477 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:56:33,488 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:56:34,008 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:56:34,022 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:56:34,022 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:56:34,047 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:56:34,348 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:56:34,618 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:56:34,986 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:56:35,036 - muse.production - INFO - Computing production: share
+2026-11-22 21:56:35,780 - muse.sectors.sector - INFO - Running gas for years 2020 to 2025
+2026-11-22 21:56:35,815 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:56:35,825 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:56:36,376 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:56:36,396 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:56:36,396 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:56:36,412 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:56:36,721 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:56:36,993 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:56:37,363 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:56:37,411 - muse.production - INFO - Computing production: share
+2026-11-22 21:56:38,536 - muse.mca - INFO - Finished simulation period 2020 to 2025 (1/6)!
+2026-11-22 21:56:38,536 - muse.mca - INFO - Running simulation years 2025 to 2030
+2026-11-22 21:56:38,698 - muse.sectors.sector - INFO - Running residential for years 2025 to 2030
+2026-11-22 21:56:38,737 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:56:38,750 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:56:39,312 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:56:39,324 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:56:39,324 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:56:39,341 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:56:39,688 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:56:39,983 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:56:40,394 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:56:40,448 - muse.production - INFO - Computing production: share
+2026-11-22 21:56:41,341 - muse.sectors.sector - INFO - Running power for years 2025 to 2030
+2026-11-22 21:56:41,381 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:56:41,391 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:56:41,909 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:56:41,924 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:56:41,924 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:56:41,941 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:56:42,255 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:56:42,538 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:56:42,898 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:56:42,949 - muse.production - INFO - Computing production: share
+2026-11-22 21:56:43,720 - muse.sectors.sector - INFO - Running gas for years 2025 to 2030
+2026-11-22 21:56:43,755 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:56:43,765 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:56:44,344 - muse.production - INFO - Computing production: share
+2026-11-22 21:56:45,275 - muse.sectors.sector - INFO - Running residential for years 2025 to 2030
+2026-11-22 21:56:45,311 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:56:45,319 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:56:45,856 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:56:45,871 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:56:45,871 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:56:45,888 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:56:46,228 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:56:46,524 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:56:46,881 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:56:46,925 - muse.production - INFO - Computing production: share
+2026-11-22 21:56:47,716 - muse.sectors.sector - INFO - Running power for years 2025 to 2030
+2026-11-22 21:56:47,760 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:56:47,771 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:56:48,304 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:56:48,320 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:56:48,320 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:56:48,337 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:56:48,724 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:56:49,012 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:56:49,361 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:56:49,406 - muse.production - INFO - Computing production: share
+2026-11-22 21:56:50,207 - muse.sectors.sector - INFO - Running gas for years 2025 to 2030
+2026-11-22 21:56:50,250 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:56:50,261 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:56:50,842 - muse.production - INFO - Computing production: share
+2026-11-22 21:56:51,824 - muse.mca - INFO - Finished simulation period 2025 to 2030 (2/6)!
+2026-11-22 21:56:51,824 - muse.mca - INFO - Running simulation years 2030 to 2035
+2026-11-22 21:56:51,947 - muse.sectors.sector - INFO - Running residential for years 2030 to 2035
+2026-11-22 21:56:51,989 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:56:51,997 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:56:52,579 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:56:52,594 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:56:52,594 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:56:52,610 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:56:52,937 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:56:53,205 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:56:53,546 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:56:53,596 - muse.production - INFO - Computing production: share
+2026-11-22 21:56:54,386 - muse.sectors.sector - INFO - Running power for years 2030 to 2035
+2026-11-22 21:56:54,422 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:56:54,431 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:56:55,037 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:56:55,050 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:56:55,051 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:56:55,068 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:56:55,380 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:56:55,657 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:56:56,024 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:56:56,084 - muse.production - INFO - Computing production: share
+2026-11-22 21:56:56,874 - muse.sectors.sector - INFO - Running gas for years 2030 to 2035
+2026-11-22 21:56:56,912 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:56:56,922 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:56:57,584 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:56:57,597 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:56:57,597 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:56:57,621 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:56:57,979 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:56:58,259 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:56:58,624 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:56:58,665 - muse.production - INFO - Computing production: share
+2026-11-22 21:56:59,584 - muse.sectors.sector - INFO - Running residential for years 2030 to 2035
+2026-11-22 21:56:59,621 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:56:59,629 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:57:00,162 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:57:00,174 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:57:00,174 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:57:00,191 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:57:00,558 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:57:00,891 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:57:01,247 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:57:01,292 - muse.production - INFO - Computing production: share
+2026-11-22 21:57:02,069 - muse.sectors.sector - INFO - Running power for years 2030 to 2035
+2026-11-22 21:57:02,114 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:57:02,123 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:57:02,657 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:57:02,668 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:57:02,669 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:57:02,686 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:57:02,995 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:57:03,267 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:57:03,631 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:57:03,681 - muse.production - INFO - Computing production: share
+2026-11-22 21:57:04,465 - muse.sectors.sector - INFO - Running gas for years 2030 to 2035
+2026-11-22 21:57:04,506 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:57:04,515 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:57:05,075 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:57:05,093 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:57:05,093 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:57:05,110 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:57:05,423 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:57:05,692 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:57:06,031 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:57:06,077 - muse.production - INFO - Computing production: share
+2026-11-22 21:57:07,067 - muse.mca - INFO - Finished simulation period 2030 to 2035 (3/6)!
+2026-11-22 21:57:07,068 - muse.mca - INFO - Running simulation years 2035 to 2040
+2026-11-22 21:57:07,190 - muse.sectors.sector - INFO - Running residential for years 2035 to 2040
+2026-11-22 21:57:07,234 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:57:07,243 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:57:07,802 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:57:07,815 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:57:07,815 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:57:07,835 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:57:08,190 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:57:08,464 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:57:08,812 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:57:08,861 - muse.production - INFO - Computing production: share
+2026-11-22 21:57:09,646 - muse.sectors.sector - INFO - Running power for years 2035 to 2040
+2026-11-22 21:57:09,681 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:57:09,689 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:57:10,205 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:57:10,219 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:57:10,219 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:57:10,239 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:57:10,556 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:57:10,871 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:57:11,233 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:57:11,287 - muse.production - INFO - Computing production: share
+2026-11-22 21:57:12,085 - muse.sectors.sector - INFO - Running gas for years 2035 to 2040
+2026-11-22 21:57:12,126 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:57:12,134 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:57:12,735 - muse.production - INFO - Computing production: share
+2026-11-22 21:57:13,687 - muse.sectors.sector - INFO - Running residential for years 2035 to 2040
+2026-11-22 21:57:13,727 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:57:13,740 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:57:14,269 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:57:14,282 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:57:14,282 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:57:14,302 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:57:14,665 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:57:14,969 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:57:15,323 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:57:15,369 - muse.production - INFO - Computing production: share
+2026-11-22 21:57:16,132 - muse.sectors.sector - INFO - Running power for years 2035 to 2040
+2026-11-22 21:57:16,169 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:57:16,177 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:57:16,709 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:57:16,721 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:57:16,721 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:57:16,741 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:57:17,059 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:57:17,334 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:57:17,686 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:57:17,736 - muse.production - INFO - Computing production: share
+2026-11-22 21:57:18,565 - muse.sectors.sector - INFO - Running gas for years 2035 to 2040
+2026-11-22 21:57:18,612 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:57:18,620 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:57:19,203 - muse.production - INFO - Computing production: share
+2026-11-22 21:57:20,220 - muse.mca - INFO - Finished simulation period 2035 to 2040 (4/6)!
+2026-11-22 21:57:20,220 - muse.mca - INFO - Running simulation years 2040 to 2045
+2026-11-22 21:57:20,349 - muse.sectors.sector - INFO - Running residential for years 2040 to 2045
+2026-11-22 21:57:20,388 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:57:20,397 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:57:20,961 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:57:20,973 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:57:20,974 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:57:20,992 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:57:21,339 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:57:21,635 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:57:21,976 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:57:22,026 - muse.production - INFO - Computing production: share
+2026-11-22 21:57:22,812 - muse.sectors.sector - INFO - Running power for years 2040 to 2045
+2026-11-22 21:57:22,870 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:57:22,883 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:57:23,508 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:57:23,520 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:57:23,520 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:57:23,536 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:57:23,874 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:57:24,162 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:57:24,571 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:57:24,632 - muse.production - INFO - Computing production: share
+2026-11-22 21:57:25,472 - muse.sectors.sector - INFO - Running gas for years 2040 to 2045
+2026-11-22 21:57:25,508 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:57:25,516 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:57:26,191 - muse.production - INFO - Computing production: share
+2026-11-22 21:57:27,120 - muse.sectors.sector - INFO - Running residential for years 2040 to 2045
+2026-11-22 21:57:27,158 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:57:27,166 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:57:27,743 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:57:27,755 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:57:27,755 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:57:27,773 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:57:28,082 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:57:28,379 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:57:28,772 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:57:28,815 - muse.production - INFO - Computing production: share
+2026-11-22 21:57:29,600 - muse.sectors.sector - INFO - Running power for years 2040 to 2045
+2026-11-22 21:57:29,640 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:57:29,652 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:57:30,234 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:57:30,247 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:57:30,248 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:57:30,269 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:57:30,613 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:57:30,895 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:57:31,240 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:57:31,286 - muse.production - INFO - Computing production: share
+2026-11-22 21:57:32,056 - muse.sectors.sector - INFO - Running gas for years 2040 to 2045
+2026-11-22 21:57:32,101 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:57:32,111 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:57:32,784 - muse.production - INFO - Computing production: share
+2026-11-22 21:57:33,830 - muse.mca - INFO - Finished simulation period 2040 to 2045 (5/6)!
+2026-11-22 21:57:33,830 - muse.mca - INFO - Running simulation years 2045 to 2050
+2026-11-22 21:57:33,960 - muse.sectors.sector - INFO - Running residential for years 2045 to 2050
+2026-11-22 21:57:33,999 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:57:34,009 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:57:34,559 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:57:34,577 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:57:34,577 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:57:34,600 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:57:34,952 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:57:35,254 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:57:35,590 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:57:35,636 - muse.production - INFO - Computing production: share
+2026-11-22 21:57:36,408 - muse.sectors.sector - INFO - Running power for years 2045 to 2050
+2026-11-22 21:57:36,448 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:57:36,456 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:57:37,026 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:57:37,041 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:57:37,041 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:57:37,060 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:57:37,371 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:57:37,652 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:57:37,995 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:57:38,047 - muse.production - INFO - Computing production: share
+2026-11-22 21:57:38,855 - muse.sectors.sector - INFO - Running gas for years 2045 to 2050
+2026-11-22 21:57:38,895 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:57:38,903 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:57:39,507 - muse.production - INFO - Computing production: share
+2026-11-22 21:57:40,425 - muse.sectors.sector - INFO - Running residential for years 2045 to 2050
+2026-11-22 21:57:40,469 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:57:40,478 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:57:41,023 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:57:41,036 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:57:41,037 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:57:41,065 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:57:41,401 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:57:41,702 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:57:42,110 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:57:42,177 - muse.production - INFO - Computing production: share
+2026-11-22 21:57:43,067 - muse.sectors.sector - INFO - Running power for years 2045 to 2050
+2026-11-22 21:57:43,105 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:57:43,113 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:57:43,673 - muse.filters - INFO - Computing initial search-space: from_techs
+2026-11-22 21:57:43,691 - muse.filters - INFO - Computing filter: all
+2026-11-22 21:57:43,691 - muse.filters - INFO - Computing filter: compress
+2026-11-22 21:57:43,711 - muse.objectives - INFO - Computing objective: LCOE
+2026-11-22 21:57:44,074 - muse.decisions - INFO - Computing decision: single
+2026-11-22 21:57:44,368 - muse.investments - INFO - Computing investment: scipy
+2026-11-22 21:57:44,737 - muse.hooks - INFO - Computing final_asset_transform: merge
+2026-11-22 21:57:44,790 - muse.production - INFO - Computing production: share
+2026-11-22 21:57:45,612 - muse.sectors.sector - INFO - Running gas for years 2045 to 2050
+2026-11-22 21:57:45,655 - muse.hooks - INFO - Computing initial_asset_transform: clean
+2026-11-22 21:57:45,664 - muse.demand_share - INFO - Computing demand_share: default
+2026-11-22 21:57:46,326 - muse.production - INFO - Computing production: share
+2026-11-22 21:57:47,304 - muse.mca - INFO - Finished simulation period 2045 to 2050 (6/6)!
